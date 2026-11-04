@@ -20,6 +20,28 @@ The interface is in English.
 - The save checksum is recalculated automatically.
 - Before writing, the slot is backed up to the `Backups` folder next to the program.
 
+## Screenshots
+
+SE-Calvard:
+
+![Choosing a game](docs/screenshot_calvard_games.jpg)
+
+![General tab](docs/screenshot_calvard_general.jpg)
+
+![Party tab](docs/screenshot_calvard_party.jpg)
+
+![Items tab](docs/screenshot_calvard_items.jpg)
+
+SE-Crossbell:
+
+![Choosing a game](docs/screenshot_crossbell_games.jpg)
+
+![General tab](docs/screenshot_crossbell_general.jpg)
+
+![Party tab](docs/screenshot_crossbell_party.jpg)
+
+![Items tab](docs/screenshot_crossbell_items.jpg)
+
 ## How to use
 
 1. Download the archive from [Releases](../../releases) and unpack it anywhere.

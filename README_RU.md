@@ -20,6 +20,28 @@
 - Контрольную сумму сохранения редактор пересчитывает сам.
 - Перед записью слот копируется в папку `Backups` рядом с программой.
 
+## Скриншоты
+
+SE-Calvard:
+
+![Выбор игры](docs/screenshot_calvard_games.jpg)
+
+![Вкладка General](docs/screenshot_calvard_general.jpg)
+
+![Вкладка Party](docs/screenshot_calvard_party.jpg)
+
+![Вкладка Items](docs/screenshot_calvard_items.jpg)
+
+SE-Crossbell:
+
+![Выбор игры](docs/screenshot_crossbell_games.jpg)
+
+![Вкладка General](docs/screenshot_crossbell_general.jpg)
+
+![Вкладка Party](docs/screenshot_crossbell_party.jpg)
+
+![Вкладка Items](docs/screenshot_crossbell_items.jpg)
+
 ## Как пользоваться
 
 1. Скачайте архив из [Releases](../../releases) и распакуйте в любую папку.
