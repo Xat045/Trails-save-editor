@@ -1,0 +1,38 @@
+[package]
+name = "trails-save-editor"
+version = "0.1.0"
+edition = "2021"
+description = "Save editors for The Legend of Heroes: Trails through Daybreak, Daybreak II, Trails beyond the Horizon (Calvard) and Trails from Zero, Trails to Azure (Crossbell)"
+publish = false
+
+[lib]
+name = "kiseki_tool"
+path = "src/lib.rs"
+
+[[bin]]
+name = "Calvard-SaveEditor"
+path = "src/save_main.rs"
+
+[[bin]]
+name = "Crossbell-SaveEditor"
+path = "src/crossbell_save_main.rs"
+
+[dependencies]
+cp932 = { path = "cp932" }
+eframe = { version = "0.31", default-features = false, features = ["glow", "default_fonts"] }
+egui_extras = { version = "0.31", default-features = false, features = ["svg"] }
+image = { version = "0.24.5", default-features = false, features = ["png"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+ruzstd = "0.8"
+xxhash-rust = { version = "0.8", features = ["xxh64"] }
+
+[target.'cfg(windows)'.dependencies]
+rfd = { version = "0.15", default-features = false }
+raw-window-handle = "0.6"
+windows-sys = { version = "0.59", features = ["Win32_System_Console", "Win32_UI_Shell", "Win32_Foundation", "Win32_UI_WindowsAndMessaging", "Win32_UI_Controls", "Win32_Storage_FileSystem", "Win32_Graphics_Gdi", "Win32_Graphics_Dwm", "Win32_UI_Input_KeyboardAndMouse", "Win32_System_Registry"] }
+
+[build-dependencies]
+embed-manifest = "1.4"
+
+[profile.release]
+opt-level = 3

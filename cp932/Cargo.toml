@@ -1,0 +1,9 @@
+[package]
+name = "cp932"
+version = "0.1.0"
+edition = "2021"
+description = "Shift-JIS (CP932) text decoding for the save editors, on top of encoding_rs"
+publish = false
+
+[dependencies]
+encoding_rs = "0.8"

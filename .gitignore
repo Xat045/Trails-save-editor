@@ -1,0 +1,11 @@
+/target/
+Cargo.lock.bak
+
+*.dat
+*.tsv
+*._dt
+/data/
+/src/save/
+
+*.ini
+/Backups/
